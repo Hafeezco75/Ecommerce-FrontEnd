@@ -1,0 +1,12 @@
+.main{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+.signUp{
+    background-color: violet;
+}
+.pageDesign{
+    align-items: center;
+    align-content: center;
+}

@@ -1,0 +1,143 @@
+.main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navTab{
+    width: 97.5vw;
+}
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: dodgerblue;
+}
+.navBar ul li{
+    list-style-type: none;
+}
+.navBar ol {
+    margin: 0;
+    width: 7vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.divSize{
+    margin: 0;
+    height: 8vh;
+}
+.divWidth{
+    margin: auto;
+    height: 3vh;
+}
+.AppContainer{
+    display: grid;
+    width: 90vw;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.picContainer{
+    display: grid;
+    width: 97.5vw;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.image{
+    width: 13vw;
+    height: 20px;
+}
+.imager{
+    width: 600px;
+    height: 400px;
+}
+.imager2{
+    width: 600px;
+    height: 400px;
+    margin-top: 33px;
+}
+.Box{
+    width: 280px;
+}
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+}
+.searchInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100vw;
+    height: 40px;
+}
+.head{
+    justify-items: left;
+}
+.searchBrand{
+    background-color: deepskyblue;
+}
+.button{
+    align-self: center;
+    display: flex;
+    box-sizing: border-box;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+}
+.pictureDisplay{
+    flex-direction: column;
+    column-gap: 100px;
+}
+.pictureFlex{
+    width: 280px;
+    height: 200px;
+}
+.pictureArrangement{
+    display: flex;
+    grid-column: auto;
+    gap: 30px;
+}
+.divColor{
+    background-color: maroon;
+    height: 50px;
+    border-radius: 10px;
+    margin: auto;
+}
+.textTitle{
+    text-size-adjust: auto;
+}
+.displayBox{
+    flex-wrap: wrap;
+}
+.picFlex{
+    width: 250px;
+    height: 150px;
+}
+.divLength{
+    display: flex;
+    gap: 20px;
+}
+.imgBelow{
+    width: 600px;
+    height: 190px;
+    border-radius: 5px;
+}
+.partner{
+    background-color: burlywood;
+    border-radius: 5px;
+}
+.Brand{
+    width: 187px;
+    height: 120px;
+    border-radius: 5px;
+    gap: 10px;
+}
+.bottomDiv{
+    background-color: black;
+    box-sizing: initial;
+    height: 250px;
+}
+.li{
+    color: white;
+}
